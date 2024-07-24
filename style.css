@@ -1,0 +1,413 @@
+@media only screen and (max-width: 700px){
+  body {
+    margin: 0 0 0 0;
+    background-color: #B27DB7;
+    
+    
+
+}
+    
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+
+.icon{
+  display: flex;
+  width: 3.75vw;
+  display: none;
+}
+
+.menuMob{
+  display: none;
+  background-color: #B27DB7;
+  padding-top: 10vw;
+  color: #1E1C1C;
+  font-weight: 980;
+  margin-top: 7vw;
+  
+  width: 100vw;
+  
+  font-size: 6vw;
+  font-family: 'Open Sans';
+
+}
+
+.menuMob > a{
+  text-decoration: none;
+  color: #1e1c1c;
+  display: flex;
+  border-bottom: 0.5vw solid #1e1c1c9b;
+  justify-content: center;
+  position: relative;
+}
+#menuMob{
+  display: none;
+}
+.menu{
+  
+}
+
+.hideWin{
+  display: none;
+}
+#hideWin{
+  display: none;
+}
+
+.blob{
+  position: absolute;
+  bottom: -20vw;
+  left: 0vw;
+  width: 130vw;
+  height: 90vw;
+}
+
+.mobileMenu{
+  width: 100vw;
+  position: absolute;
+  
+}
+.menu{
+  position: absolute;
+  top: 0;
+}
+
+.choose-the-taste {
+  position: absolute;
+  top: 35vw;
+  left: 6vw;
+  font-weight: 980;
+  display: inline-block;
+  width: 55vw;
+  height: 20vw;
+  mix-blend-mode: normal;
+  text-align: center;
+  font-size: 5vw;
+  color: #1e1c1c;
+  font-family: Arial;
+}
+.blueberryMob{
+width: 50vw;
+}
+#typeMob {
+top: 53vw;                      
+left: 8vw;                      
+position: absolute;
+
+}
+
+.blueberry{
+  display: none;
+  }
+#type {
+  display: none;
+  }
+
+.slideshow {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      overflow: hidden;
+      
+    }
+
+  .shadow{
+    width: 50vw;
+    height: 50vw;
+    box-shadow: 0px 0px 90.2px 0px rgba(0, 0, 0, 0.50);
+    border: 30vw solid transparent;
+    border-radius: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20vw;
+    left: 65vw;
+  }
+
+  .carousel {
+    width: 50vw;
+    height: 50vw;
+    box-shadow: inset 0px 0px 90.2px 0px rgba(0, 0, 0, 0.50);
+    border: 22vw solid #6C4176;
+    border-radius: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20vw;
+    left: 65vw;
+    flex-shrink: 0;
+    transition: rotate 1s;
+  }
+  
+  .slide {
+    width: 20vw;
+    position: absolute;
+  }
+  
+  .slide:nth-child(1) {
+    bottom: -19vw;
+  }
+  
+  .slide:nth-child(2) {
+    left: -20vw;
+
+  }
+  
+  .slide:nth-child(3) {
+    top: -19vw;
+  }
+  
+  .slide:nth-child(4) {
+    right: -19vw;
+  }
+  
+  .slide.active img {
+    
+  }
+  
+  .slide img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+
+  .controls {
+    
+    left: 8vw;
+    position: absolute;
+    
+    top: 65vw;
+    
+  }
+  
+  .controls a {
+    padding: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10rem;
+    transition: background-color 1s;
+  }
+  
+  .controls a.active {
+    background-color: #00000013;
+  }
+  
+  .controls img {
+    display: flex;
+    width: 8vw;
+  }
+
+}
+@media only screen and (min-width: 700px){
+  body {
+      margin: 0 0 0 0;
+      background-color: #B27DB7;
+      
+      overflow-y: hidden; 
+      overflow-x: hidden; 
+
+  }
+  #hideMob{
+    display: none;
+  }
+  .hideMob{
+    display: none;
+  }   
+  html{
+      height: 100vh;
+      width: 100vw;
+  }
+
+  .icon{
+    display: flex;
+    width: 3.75vw;
+    
+  }
+
+  .menu {
+    display: flex;
+    margin: 1vw 0px 0px 2vw;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .menu > ol > a > h1{
+    color: #1E1C1C;
+    width: 8vw;
+    position: relative;
+    font-size: 1.27vw;
+    display: inline-flex;
+    padding-left: 4vw;
+    left: 3.5vw;
+    font-family: 'Open Sans';
+    text-align: center;
+    
+    
+  }
+  .menu > ol > a {
+    text-decoration: none;  
+  }
+
+  .menu > ol {
+  margin-left: 0vw;
+  }
+
+
+  .blueberryMob{
+    display: none;
+    }
+    #typeMob {
+    display: none;
+    }
+
+  .ice-cream{
+      left: 72.5vw;
+      top: 40vw;
+      position: absolute;
+      
+  }
+
+
+
+  .choose-the-taste {
+      position: absolute;
+      top: 5vw;
+      left: 22vw;
+      font-weight: 980;
+      display: inline-block;
+      width: 32vw;
+      height: 20vw;
+      mix-blend-mode: normal;
+      text-align: center;
+      font-size: 2.65vw;
+      color: #1e1c1c;
+      font-family: Arial;
+  }
+  .blueberry{
+    width: 31vw;
+  }
+  #type {
+    top: 14.8vw;                      
+    left: 23vw;                      
+    position: absolute;
+  }
+  .wellcome {
+      position: relative;
+      height: 255px;
+      
+  }
+
+  .blob{
+      position: absolute;
+      bottom: 0vw;
+      width: 37vw;
+      height: 35vw;
+  }
+
+  .slideshow {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      overflow: hidden;
+      
+    }
+
+  .shadow{
+    width: 40vw;
+    height: 40vw;
+    box-shadow: 0px 0px 90.2px 0px rgba(0, 0, 0, 0.50);
+    border: 22vw solid transparent;
+    border-radius: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -14vw;
+    left: 72.9vw;
+  }
+
+  .carousel {
+    width: 40vw;
+    height: 40vw;
+    box-shadow: inset 0px 0px 90.2px 0px rgba(0, 0, 0, 0.50);
+    border: 22vw solid#6C4176;
+    border-radius: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -14vw;
+    left: 72.9vw;
+    flex-shrink: 0;
+    transition: rotate 1s;
+  }
+  
+  .slide {
+    width: 18vw;
+    position: absolute;
+  }
+  
+  .slide:nth-child(1) {
+    bottom: -19vw;
+  }
+  
+  .slide:nth-child(2) {
+    left: -19vw;
+  }
+  
+  .slide:nth-child(3) {
+    top: -19vw;
+  }
+  
+  .slide:nth-child(4) {
+    right: -19vw;
+  }
+  
+  .slide.active img {
+    
+  }
+  
+  .slide img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+
+  .controls {
+    
+    left: 42vw;
+    position: absolute;
+    
+    bottom: 0vw;
+    
+  }
+  
+  .controls a {
+    padding: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10rem;
+    transition: background-color 1s;
+  }
+  
+  .controls a.active {
+    background-color: #00000013;
+  }
+  
+  .controls img {
+    display: flex;
+    width: 5vw;
+  }
+
+  .menuMob{
+    display: hide;
+    position: absolute;
+  }
+}

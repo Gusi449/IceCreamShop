@@ -1,0 +1,657 @@
+@media only screen and (max-width: 700px){
+   body{
+    background-color: #B27DB7;
+    margin: 0 0 0 0;
+    overflow-x: hidden; 
+   }
+
+   .icon{
+      display: flex;
+      width: 3.75vw;
+    
+   }
+ 
+ .menu {
+     display: flex;
+     margin: 1vw 0px 0px 2vw;
+     justify-content: flex-start;
+     align-items: center;
+     
+     
+ }
+ .menu > ol > a > h1{
+     color: #1E1C1C;
+     width: 12vw;
+     position: relative;
+     font-size: 1.8vw;
+     display: inline-flex;
+     margin-left: -1.5vw;
+     left: 3.5vw;
+     font-family: 'Open Sans';
+     text-align: center;
+     
+     
+ }
+ .menu > ol > a {
+     text-decoration: none;  
+ }
+
+ .menu > ol {
+   margin-left: 0vw;
+ }
+
+ .blobTop{
+    position: absolute;
+    left: 59vw;
+    top: 0px;
+    width: 40vw;
+ }
+
+ .welcome{
+    color: #1E1C1C;
+    font-family: "Open Sans";
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 16vw;
+    top: 12vw;
+ }
+
+ .iceCream{
+    color: #1E1C1C;
+    font-family: Pacifico;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 15vw;
+    top: 10vw;
+    position: absolute;
+ }
+ .slogo{
+    color: #1E1C1C;
+    font-family: "Open Sans";
+    font-size: 1.85vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 22vw;
+    left: 31.25vw;
+ }
+
+ .mainText{
+    
+
+ }
+
+
+ .blobBottom{
+    width: 100vw;
+    margin-top: 25vw;
+    left: 0;
+    
+ }
+
+ .lorem{
+    position: absolute;
+    width: 50vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #1c1e1e;
+    text-align: center;
+    display: flex;
+    height: auto;
+    top: 54vw;
+    left: 40vw;
+ }
+
+.productSection{
+   position: relative;
+}
+
+   .productContainer{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      top: 90vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      row-gap: 5vw;
+   }
+
+ .blueberry{
+
+   width: 21.8vw;
+   height: 34.3vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(Product\ Card\ Blueberry1.png);
+   position: relative;
+   -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+   -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+   box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+   border-radius: 3.7vw;
+   }
+
+ .productName{
+   position: absolute;
+   top: 7vw;
+   width: 136px;
+   left: 0.75vw;
+   font-size: 2.15vw;
+   font-family: Pacifico;
+   color: #1c1e1e;
+   
+   
+   height: 42px;
+   }
+
+ .cream{
+   width: 6.6vw;
+   position: absolute;
+   font-size: 1.5vw;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   
+   top: 11.75vw;
+   left: 0.75vw;
+   }
+   .lorem-ipsum-dolor {
+   width: 10vw;
+   position: absolute;
+   font-size: 0.85vw;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   height:auto;
+   
+   top: 14.75vw;
+   left: 0.75vw;
+   }
+   
+   .price{
+   width: 49px;
+   position: absolute;
+   font-size: 1.5vw;
+   letter-spacing: -0.03em;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   height: 21px;
+   top: 25.5vw;
+   left: 0.75vw;
+   }
+   
+   .forBall{
+   width: 34px;
+   position: absolute;
+   font-size: 0.67vw;
+   letter-spacing: 0.01em;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   top: 28vw;
+   left: 0.75vw;
+   }
+
+   .Oreo{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Oreo.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;      
+   }
+
+   .Vanilla{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Vanilla.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .Strawberry{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Strawberry.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .Chocolate{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Chocolate.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .Mix{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Mix.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .buy{
+      position: absolute;
+      left: 1.28vw;
+      top: 29.85vw;
+      width: 3.25vw;
+      height: 3.25vw;
+   }
+}
+
+@media only screen and (min-width: 700px){
+   body{
+    background-color: #B27DB7;
+    margin: 0 0 0 0;
+    overflow-x: hidden; 
+   }
+
+   .icon{
+      display: flex;
+      width: 3.75vw;
+    
+   }
+ 
+ .menu {
+     display: flex;
+     margin: 1vw 0px 0px 2vw;
+     justify-content: flex-start;
+     align-items: center;
+     
+     
+ }
+ .menu > ol > a > h1{
+     color: #1E1C1C;
+     width: 8vw;
+     position: relative;
+     font-size: 1.27vw;
+     display: inline-flex;
+     padding-left: 4vw;
+     left: 3.5vw;
+     font-family: 'Open Sans';
+     text-align: center;
+     
+     
+ }
+ .menu > ol > a {
+     text-decoration: none;  
+ }
+
+ .menu > ol {
+   margin-left: 0vw;
+ }
+
+ .blobTop{
+    position: absolute;
+    left: 59vw;
+    top: 0px;
+    width: 40vw;
+ }
+
+ .welcome{
+    color: #1E1C1C;
+    font-family: "Open Sans";
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 16vw;
+    top: 12vw;
+ }
+
+ .iceCream{
+    color: #1E1C1C;
+    font-family: Pacifico;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 15vw;
+    top: 10vw;
+    position: absolute;
+ }
+ .slogo{
+    color: #1E1C1C;
+    font-family: "Open Sans";
+    font-size: 1.85vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 22vw;
+    left: 31.25vw;
+ }
+
+ .mainText{
+    
+
+ }
+
+
+ .blobBottom{
+    width: 100vw;
+    margin-top: 25vw;
+    left: 0;
+    
+ }
+
+ .lorem{
+    position: absolute;
+    width: 50vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #1c1e1e;
+    text-align: center;
+    display: flex;
+    height: auto;
+    top: 54vw;
+    left: 40vw;
+ }
+
+.productSection{
+   position: relative;
+}
+
+   .productContainer{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      top: 90vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      row-gap: 5vw;
+   }
+
+ .blueberry{
+
+   width: 21.8vw;
+   height: 34.3vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(Product\ Card\ Blueberry1.png);
+   position: relative;
+   -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+   -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+   box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+   border-radius: 3.7vw;
+   }
+
+ .productName{
+   position: absolute;
+   top: 7vw;
+   width: 136px;
+   left: 0.75vw;
+   font-size: 2.15vw;
+   font-family: Pacifico;
+   color: #1c1e1e;
+   
+   
+   height: 42px;
+   }
+
+ .cream{
+   width: 6.6vw;
+   position: absolute;
+   font-size: 1.5vw;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   
+   top: 11.75vw;
+   left: 0.75vw;
+   }
+   .lorem-ipsum-dolor {
+   width: 10vw;
+   position: absolute;
+   font-size: 0.85vw;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   height:auto;
+   
+   top: 14.75vw;
+   left: 0.75vw;
+   }
+   
+   .price{
+   width: 49px;
+   position: absolute;
+   font-size: 1.5vw;
+   letter-spacing: -0.03em;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   height: 21px;
+   top: 25.5vw;
+   left: 0.75vw;
+   }
+   
+   .forBall{
+   width: 34px;
+   position: absolute;
+   font-size: 0.67vw;
+   letter-spacing: 0.01em;
+   font-family: 'Open Sans';
+   color: #1c1e1e;
+   top: 28vw;
+   left: 0.75vw;
+   }
+
+   .Oreo{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Oreo.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;      
+   }
+
+   .Vanilla{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Vanilla.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .Strawberry{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Strawberry.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .Chocolate{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Chocolate.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .Mix{
+      width: 21.8vw;
+      height: 34.3vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(Product\ Card\ Mix.png);
+      position: relative;
+      -webkit-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0, 0, 0, 0.40);
+      -moz-box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      box-shadow: 1.5vw 1.5vw 2vw -0.25vw rgba(0,0,0,0.40);
+      border-radius: 3.7vw;
+   }
+
+   .buy{
+      position: absolute;
+      left: 1.28vw;
+      top: 29.85vw;
+      width: 3.25vw;
+      height: 3.25vw;
+   }
+}
+/*
+Codul initial ca productCard
+HTML
+<div class="blueberry">
+
+<img src="Group 8.png" class="cardBack">
+
+<h1 class="productName">Blueberry</h1>
+<i class="cream">Ice Cream</i>
+<div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+<p class="price">$1.50</p>
+<p class="forBall">for ball</p>
+<img src="blueberry.png" class="productImg">
+<div class="buyButton"></div>
+<img src="Subtract.png" class="buyLogo"></img>
+</div>
+
+CSS
+.blueberry{
+position: absolute;
+top: 120vw;
+
+}
+
+.productName{
+position: absolute;
+top: 7vw;
+width: 136px;
+left: 0.75vw;
+font-size: 2.15vw;
+font-family: Pacifico;
+color: #000;
+
+
+height: 42px;
+}
+
+.buyButton{
+position: absolute;
+width: 3.3vw;
+height: 3.3vw;
+background: #B27DB7;
+border-radius: 50%;
+bottom: 5%;
+left: 5%;
+}
+
+.buyLogo{
+width: 1.05vw;
+height: 2.1vw;
+
+position: absolute;
+bottom: 2.25vw;
+left: 2.2vw;
+}
+
+.cardBack{
+width: 21vw;
+}
+
+.cream{
+width: 100px;
+position: absolute;
+font-size: 1.5vw;
+font-family: 'Open Sans';
+color: #000;
+
+top: 11.75vw;
+left: 0.75vw;
+}
+.lorem-ipsum-dolor {
+width: 10vw;
+position: absolute;
+font-size: 0.85vw;
+font-family: 'Open Sans';
+color: #000;
+height: 167px;
+
+top: 14.75vw;
+left: 0.75vw;
+}
+
+.price{
+width: 49px;
+position: absolute;
+font-size: 1.35vw;
+letter-spacing: -0.03em;
+font-family: 'Open Sans';
+color: #000;
+height: 21px;
+top: 24vw;
+left: 0.75vw;
+}
+
+.forBall{
+width: 34px;
+position: absolute;
+font-size: 0.67vw;
+letter-spacing: 0.01em;
+font-family: 'Open Sans';
+color: #000;
+bottom: 4.5vw;
+left: 0.75vw;
+}
+
+.productImg{
+position: absolute;
+left: 5.65vw;
+top: 14vw;
+width: 18vw;
+}
+*/

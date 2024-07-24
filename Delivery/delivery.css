@@ -1,0 +1,357 @@
+
+@media only screen and (max-width: 700px){
+   body{
+       background-color: aqua;
+       margin: 0 0 0 0;
+       overflow-x: hidden; 
+       margin-bottom: 0vw;
+   }
+   
+   .icon{
+      display: flex;
+      width: 3.75vw;
+       
+    }
+    
+    .menu {
+        display: flex;
+        margin: 1vw 0px 0px 2vw;
+        justify-content: flex-start;
+        align-items: center;
+        
+        
+    }
+    .menu > ol > a > h1{
+      color: #1E1C1C;
+      width: 12vw;
+      position: relative;
+      font-size: 1.8vw;
+      display: inline-flex;
+      margin-left: -1.5vw;
+      left: 3.5vw;
+      font-family: 'Open Sans';
+      text-align: center;
+        
+        
+    }
+    .menu > ol > a {
+        text-decoration: none;  
+    }
+   
+    .menu > ol {
+      margin-left: 0vw;
+   }
+   
+    .blobTop{
+       position: absolute;
+       left: 60vw;
+       top: 0px;
+       width: 40vw;
+    }
+   
+    .welcome{
+       color: #1E1C1C;
+       font-family: "Open Sans";
+       font-size: 2.5vw;
+       font-style: italic;
+       font-weight: 400;
+       font-display: swap;
+       line-height: normal;
+       position: absolute;
+       left: 16vw;
+       top: 12vw;
+    }
+   
+    .iceCream{
+       color: #1E1C1C;
+       font-family: Pacifico;
+       font-size: 6vw;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       left: 15vw;
+       top: 10vw;
+       position: absolute;
+    }
+    .slogo{
+       color: #1E1C1C;
+       font-family: "Open Sans";
+       font-size: 1.85vw;
+       font-style: italic;
+       font-weight: 400;
+       line-height: normal;
+       font-display: swap;
+       position: absolute;
+       top: 21.8vw;
+       left: 31.25vw;
+    }
+   
+    .mainText{
+       
+   
+    }
+   
+   
+    .blobBottom{
+       width: 100vw;
+       margin-top: 23vw;
+       left: 0;
+       
+    }
+   
+    .lorem{
+       position: absolute;
+       width: 44vw;
+       font-size: 1.7vw;
+       font-weight: 600;
+       font-family: 'Open Sans';
+       color: #1c1e1e;
+       text-align: center;
+       display: flex;
+       height: 150px;
+       top: 52vw;
+       left: 46vw;
+    }
+   
+    .place{
+       display: flex;
+       top: 95vw;
+       left: 9.5vw;
+       position: absolute;
+    }
+   
+    .Top{
+       width: 39vw;
+       position: relative;
+       font-size: 4vw;
+       letter-spacing: 0.07em;
+       font-family: Arial;
+       color: #1e1c1c;
+       text-align: center;
+       top: -5vw;
+    }
+   
+    .description{
+       width: 40vw;
+       position: relative;
+       font-size: 2vw;
+       letter-spacing: 0.07em;
+       font-weight: 600;
+       font-family: 'Open Sans';
+       color: #1c1e1e;
+       text-align: center;
+       top: -8vw;
+    }
+   
+    .info{
+       width: 14vw;
+       position: relative;
+       font-size: 2vw;
+       letter-spacing: 0.07em;
+       line-height: 4.2vw;
+       height: 12vw;
+       font-weight: 400;
+       font-family: 'Open Sans';
+       color: #1c1e1e;
+       text-align: left;
+       top: -10vw;
+       
+    }
+   
+    .details{
+       
+       width: 40vw;
+       position: relative;
+       font-size: 2vw;
+       letter-spacing: 0.07em;
+       font-weight: 600;
+       font-family: 'Open Sans';
+       color: #1c1e1e;
+       text-align: center;
+       display: inline-block;
+       height: 3vw;
+    }
+   
+    .placeMap{
+       width: 43vw;
+       height: 36vw;
+    }
+   }
+@media only screen and (min-width: 700px){
+body{
+    background-color: aqua;
+    margin: 0 0 0 0;
+    overflow-x: hidden; 
+    margin-bottom: 0vw;
+}
+
+.icon{
+   display: flex;
+   width: 3.75vw;
+    
+ }
+ 
+ .menu {
+     display: flex;
+     margin: 1vw 0px 0px 2vw;
+     justify-content: flex-start;
+     align-items: center;
+     
+     
+ }
+ .menu > ol > a > h1{
+     color: #1E1C1C;
+     width: 8vw;
+     position: relative;
+     font-size: 1.27vw;
+     display: inline-flex;
+     padding-left: 4vw;
+     left: 3.5vw;
+     font-family: 'Open Sans';
+     text-align: center;
+     
+     
+ }
+ .menu > ol > a {
+     text-decoration: none;  
+ }
+
+ .menu > ol {
+   margin-left: 0vw;
+}
+
+ .blobTop{
+    position: absolute;
+    left: 60vw;
+    top: 0px;
+    width: 40vw;
+ }
+
+ .welcome{
+    color: #1E1C1C;
+    font-family: "Open Sans";
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    line-height: normal;
+    position: absolute;
+    left: 16vw;
+    top: 12vw;
+ }
+
+ .iceCream{
+    color: #1E1C1C;
+    font-family: Pacifico;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 15vw;
+    top: 10vw;
+    position: absolute;
+ }
+ .slogo{
+    color: #1E1C1C;
+    font-family: "Open Sans";
+    font-size: 1.85vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    font-display: swap;
+    position: absolute;
+    top: 21.8vw;
+    left: 31.25vw;
+ }
+
+ .mainText{
+    
+
+ }
+
+
+ .blobBottom{
+    width: 100vw;
+    margin-top: 23vw;
+    left: 0;
+    
+ }
+
+ .lorem{
+    position: absolute;
+    width: 44vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #1c1e1e;
+    text-align: center;
+    display: flex;
+    height: 150px;
+    top: 52vw;
+    left: 46vw;
+ }
+
+ .place{
+    display: flex;
+    top: 95vw;
+    left: 9.5vw;
+    position: absolute;
+ }
+
+ .Top{
+    width: 39vw;
+    position: relative;
+    font-size: 4vw;
+    letter-spacing: 0.07em;
+    font-family: Arial;
+    color: #1e1c1c;
+    text-align: center;
+    top: -5vw;
+ }
+
+ .description{
+    width: 40vw;
+    position: relative;
+    font-size: 1.5vw;
+    letter-spacing: 0.07em;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #1c1e1e;
+    text-align: center;
+    top: -8vw;
+ }
+
+ .info{
+    width: 14vw;
+    position: relative;
+    font-size: 1.5vw;
+    letter-spacing: 0.07em;
+    line-height: 4.8vw;
+    height: 12vw;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #1c1e1e;
+    text-align: left;
+    top: -10vw;
+    
+ }
+
+ .details{
+    
+    width: 40vw;
+    position: relative;
+    font-size: 1.7vw;
+    letter-spacing: 0.07em;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #1c1e1e;
+    text-align: center;
+    display: inline-block;
+    height: 3vw;
+ }
+
+ .placeMap{
+    width: 43vw;
+    height: 36vw;
+ }
+}
